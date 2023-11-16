@@ -7,7 +7,7 @@ disponible para préstamo
 y llevar un registro de la disponibilidad de los libros.
 */
 
-let biblioteca = ['Cien años de soledad, de Gabriel García Márquez','El señor de los anillos (Trilogía), de J. R. R. Tolkien','1984, de George Orwell','Un mundo feliz, de Aldous Huxley.','Orgullo y prejuicio, de Jane Austen.','Crimen y castigo, de Fiódor Dostoyevski.','Lolita, de Vladimir Nabokov','Ulises, de James Joyce','Madame Bovary, de Gustave Flaubert','En busca del tiempo perdido, de Marcel Proust']
+let biblioteca = ['CEl Alquimista , Paulo Coelho','Cien años de Soledad, Gabriel García Márquez','El Principito ,Antoine de Saint-Exupéry','Un mundo feliz, de Aldous Huxley.','Orgullo y prejuicio, de Jane Austen.','Crimen y castigo, de Fiódor Dostoyevski.','Los Miserables , Víctor Hugo','Ulises, de James Joyce','Crimen y castigo, de Fiódor Dostoyevski','En busca del tiempo perdido, de Marcel Proust']
 let disponibilidad = [true,true,false,false,true,false,false,true,true,false]
 
 
@@ -43,4 +43,4 @@ let buscar = (nombre) => {
 console.log(biblioteca.length)
 
 console.log(registro(biblioteca))
-console.log(buscar('Lolita'))
+console.log(buscar('Cocina'))
